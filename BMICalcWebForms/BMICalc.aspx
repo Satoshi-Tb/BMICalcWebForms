@@ -36,7 +36,7 @@
         </tr>
         <tr>
           <td colspan="2" style="text-align: right;">
-            <asp:Button runat="server" Text="計算" style="display: inline-block;"/>
+            <asp:Button runat="server" ID="btnCalc" Text="計算" style="display: inline-block;"/>
             <input type="reset" value="リセット" />
           </td>
         </tr>

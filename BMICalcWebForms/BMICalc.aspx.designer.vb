@@ -48,4 +48,13 @@ Partial Public Class BMICalc
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
     Protected WithEvents lblStdBMI As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''btnCalc コントロール。
+    '''</summary>
+    '''<remarks>
+    '''自動生成されたフィールド。
+    '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+    '''</remarks>
+    Protected WithEvents btnCalc As Global.System.Web.UI.WebControls.Button
 End Class
