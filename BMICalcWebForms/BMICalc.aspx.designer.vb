@@ -50,13 +50,13 @@ Partial Public Class BMICalc
     Protected WithEvents lblBMI As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''lblStdBMI コントロール。
+    '''lblProperWeight コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents lblStdBMI As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblProperWeight As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''btnCalc コントロール。

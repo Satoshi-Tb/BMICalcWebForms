@@ -32,11 +32,15 @@
         </tr>
         <tr>
           <td>BMI</td>
-          <asp:Label runat="server" ID="lblBMI" Text=""></asp:Label>
+          <td>
+            <asp:Label runat="server" ID="lblBMI" Text=""></asp:Label>
+          </td>
         </tr>
         <tr>
-          <td>標準体重</td>
-          <asp:Label runat="server" ID="lblStdBMI" Text=""></asp:Label>
+          <td>適性体重</td>
+          <td>
+            <asp:Label runat="server" ID="lblProperWeight" Text=""></asp:Label>
+          </td>
         </tr>
         <tr>
           <td colspan="2" style="text-align: right;">
