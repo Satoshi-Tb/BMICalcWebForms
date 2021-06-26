@@ -31,12 +31,16 @@
           </td>
         </tr>
         <tr>
-          <td>標準</td>
+          <td>BMI</td>
+          <asp:Label runat="server" ID="lblBMI" Text=""></asp:Label>
+        </tr>
+        <tr>
+          <td>標準体重</td>
           <asp:Label runat="server" ID="lblStdBMI" Text=""></asp:Label>
         </tr>
         <tr>
           <td colspan="2" style="text-align: right;">
-            <asp:Button runat="server" ID="btnCalc" Text="計算" style="display: inline-block;"/>
+            <asp:Button runat="server" ID="btnCalc" Text="計算" style="display: inline-block;" OnClick="btnCalc_Click"/>
             <input type="reset" value="リセット" />
           </td>
         </tr>

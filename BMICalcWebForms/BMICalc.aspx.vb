@@ -5,4 +5,12 @@
 
     End Sub
 
+    ''' <summary>
+    ''' BMI計算をします
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    Protected Sub btnCalc_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
