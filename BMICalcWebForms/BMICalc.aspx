@@ -12,6 +12,14 @@
       border: 1px solid gray;
     }
   </style>
+  <script type="text/javascript">
+    function clearForm() {
+      document.getElementById("txtHeight").value = "";
+      document.getElementById("txtWeight").value = "";
+      document.getElementById("lblBMI").innerText = "";
+      document.getElementById("lblProperWeight").innerText = "";
+    }
+  </script>
 </head>
 <body>
   <form id="form1" runat="server">
@@ -45,7 +53,7 @@
         <tr>
           <td colspan="2" style="text-align: right;">
             <asp:Button runat="server" ID="btnCalc" Text="計算" style="display: inline-block;" OnClick="btnCalc_Click"/>
-            <input type="reset" value="リセット" />
+            <input type="reset" value="リセット" onclick="clearForm(); return false;" />
           </td>
         </tr>
       </table>
